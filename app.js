@@ -7,7 +7,7 @@ const app = express();
 // Set up mongoose connection
 const mongoose = require('mongoose');
 
-let dev_db_url = 'mongodb://cafe-user:Cafe2100@ds251002.mlab.com:51002/productsapp';
+let dev_db_url = 'mongodb://cafe-user:Cafe2100@ds251002.mlab.com:51002/cafe';
 
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 console.log(mongoDB);
